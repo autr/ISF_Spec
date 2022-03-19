@@ -190,8 +190,8 @@ vec4 VVSAMPLER_2DBYNORM(sampler2D sampler, vec4 samplerImgRect, vec2 samplerImgS
 
 ## ISF Implementations
 
+* [VVISF-GL](https://github.com/mrRay/VVISF-GL) - C++ cross-platform library 
 * [ofxISF](https://github.com/satoruhiga/ofxISF) - C++ openFrameworks addon
 * [ofxVVISF](https://github.com/danzeeeman/ofxVVISF) - C++ openFrameworks addon
-* [VVISF-GL](https://github.com/mrRay/VVISF-GL) - ObjC application
 * [libisf](https://github.com/jcelerier/libisf) - C++ compiler
 * [interactive-shader-format-js](https://github.com/msfeldstein/interactive-shader-format-js) - Javascript WebGL
