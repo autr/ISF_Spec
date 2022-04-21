@@ -70,8 +70,9 @@ ISF shader code replaces GL-version-specific syntax, uniforms and functions with
 **Utility Functions**
 
 * `vec2 IMG_SIZE( texture2D )` - returns width and height of image
-* `vec2 IMG_NORM_PIXEL( texture2D )` - returns normalised fragment coordinate of image[0,0] to [1,1]
-* `vec2 IMG_PIXEL( texture2D )` - returns fragment coordinate of image[0,0] to [$WIDTH,$HEIGHT]
+* `vec4 IMG_THIS_PIXEL( texture2D )` - returns current pixel
+* `vec4 IMG_NORM_PIXEL( texture2D, vec2 )` - returns normalised fragment pixel from coordinate [0,0] to [1,1]
+* `vec4 IMG_PIXEL( texture2D, vec2 )` - returns fragment pixel from coordinate [0,0] to [$WIDTH,$HEIGHT]
 
 ## Writing ISF Software - development
 
